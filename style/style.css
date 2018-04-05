@@ -93,6 +93,12 @@ footer {
 	background: #f2f2f2;
 }
 
+#inf_footer ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
 #last_footer{
 	display: flex;
 	flex-direction: row;
