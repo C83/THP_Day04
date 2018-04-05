@@ -5,9 +5,14 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
+	<script type="text/javascript">
+      function afficherPub(){
+        alert('Venez sur mon site');
+      }
+   </script>
 </head>
 <body>
-	<header>
+	<header onLoad="setTimeout('afficherPub()', 100)">
 		<ul>
 			<li><a href="#Gmail">Gmail</a></li>
 			<li><a href="#GoogleImage">Images</a></li>

@@ -1,6 +1,8 @@
 // Gérer les éléments centraux
 let buttonChangeDisplay = document.getElementById('hideButton');
 var buttonSearchStart = document.getElementById('searchButton');
+document.querySelector('input').value=null;
+setTimeout("alert('Veuillez aller sur ce site')",10000);
 
 buttonChangeDisplay.onclick = function() {
 	document.getElementById('elementCentraux').style.display='flex';
